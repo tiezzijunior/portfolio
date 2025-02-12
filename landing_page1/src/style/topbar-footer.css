@@ -1,0 +1,68 @@
+/* 
+  TOPBAR
+*/
+nav {
+  background-color: #000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+  padding: 20px 40px 10px 40px;
+  font-family: var(--font-principal);
+  font-size: 14px;
+  color: #fff;
+}
+
+.navegation__top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navegation__top .navegation__top__name {
+  font-weight: 600;
+}
+
+.navegation__bot {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+
+.navegation__bot .navegation__bot__menus ul {
+  display: flex;
+}
+
+.navegation__bot .navegation__bot__menus ul li {
+  padding-right: 15px;
+}
+
+.navegation__bot .navegation__bot__menus ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* 
+  FOOTER
+*/
+footer {
+  background-color: transparent;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 150px;
+  padding: 20px 40px;
+}
+
+.footer__content {
+  display: flex;
+  justify-content: space-between;
+  color: #000;
+}
+
+.footer__content .footer__content__left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
