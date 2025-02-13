@@ -1,0 +1,47 @@
+body {
+  font-family: var(--font-principal);
+}
+
+.main-content__header {
+  width: 100%;
+  height: 100vh;
+}
+
+.header__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  color: #fff;
+  background-image: url("../assets/imagens/casa.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.header__content .header__content-title {
+  padding: 0 0 10px 85px;
+  font-size: 100px;
+  font-weight: 600;
+}
+
+.header__content .header__content-subtitle {
+  padding: 0 0 5px 85px;
+}
+
+.header__content .header__content-subtitle2 {
+  padding: 0 0 0 85px;
+}
+
+.body__content .body__content-valores {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 200px;
+}
+
+.body__content .body__content-valores .valor__card1 {
+  display: flex;
+  flex-direction: column;
+}

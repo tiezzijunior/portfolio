@@ -1,10 +1,11 @@
-<nav id="navegation">
-    <div class="navegation__top">
-        <span class="navegation__top__name">GRIYO</span>
-        <span>Main Street Plaza, Downtown Business District</span>
-    </div>
-    <div class="navegation__bot">
-        <div class="navegation__bot__menus">
+<footer>
+    <div class="footer__content">
+        <div class="footer__content__left">
+            <span class="footer__content__left-text">Main Street Plaza, Downtown Business District</span>
+            <span>+1 (555) 123-4567</span>
+        </div>
+
+        <div class="footer__content__center">
             <ul>
                 <li>
                     <a href="#home">
@@ -28,8 +29,10 @@
                 </li>
             </ul>
         </div>
-        <div class="navegation__bot__phone">
-            <span>+1 (555) 123-4567</span>
+
+        <div class="footer__content__right">
+            <span class="footer__content__right-text">Get in Touch</span>
+            <span class="footer__content__right-email">GRIYO@BUSINESS.COM</span>
         </div>
     </div>
-</nav>
+</footer>

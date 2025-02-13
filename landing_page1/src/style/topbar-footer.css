@@ -2,7 +2,7 @@
   TOPBAR
 */
 nav {
-  background-color: #000;
+  background-color: transparent;
   position: fixed;
   top: 0;
   left: 0;
@@ -12,6 +12,11 @@ nav {
   font-family: var(--font-principal);
   font-size: 14px;
   color: #fff;
+  border-bottom: 2px solid rgba(179, 179, 179, 0.7);
+}
+
+#navegation {
+  transition: background-color 0.3s;
 }
 
 .navegation__top {
@@ -42,27 +47,79 @@ nav {
   color: #fff;
 }
 
+.scrolled {
+  background-color: #fff;
+  color: #000;
+}
+
+.scrolled .navegation__bot .navegation__bot__menus ul li a {
+  text-decoration: none;
+  color: #000;
+}
+
+
 /* 
   FOOTER
 */
 footer {
   background-color: transparent;
-  position: fixed;
+  position: relative;
   bottom: 0;
   left: 0;
   right: 0;
-  height: 150px;
+  height: 100px;
   padding: 20px 40px;
+  border-top: 2px solid rgba(179, 179, 179, 0.7);
 }
 
 .footer__content {
   display: flex;
   justify-content: space-between;
   color: #000;
+  font-family: var(--font-principal);
+  font-size: 16px;
 }
 
 .footer__content .footer__content__left {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  height: 100%;
+  width: 30%;
+}
+
+.footer__content .footer__content__left .footer__content__left-text {
+  padding-bottom: 20px;
+}
+
+.footer__content .footer__content__center {
+  text-align: center;
+  height: 100%;
+  width: 30%;
+}
+
+.footer__content .footer__content__center ul li {
+  padding-bottom: 10px;
+}
+
+.footer__content .footer__content__center ul li a {
+  text-decoration: none;
+  color: #000;
+}
+
+.footer__content .footer__content__right {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 30%;
+  align-items: flex-end;
+}
+
+.footer__content .footer__content__right .footer__content__right-text {
+  align-self: flex-end;
+  padding-bottom: 10px;
+}
+
+.footer__content .footer__content__right .footer__content__right-email {
+  font-size: 22px;
+  font-weight: 300;
 }
