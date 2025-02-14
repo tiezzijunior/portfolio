@@ -11,8 +11,8 @@ nav {
   padding: 20px 40px 10px 40px;
   font-family: var(--font-principal);
   font-size: 14px;
-  color: #fff;
-  border-bottom: 2px solid rgba(179, 179, 179, 0.7);
+  color: var(--color-title);
+  border-bottom: var(--border-default);
 }
 
 #navegation {
@@ -44,7 +44,7 @@ nav {
 
 .navegation__bot .navegation__bot__menus ul li a {
   text-decoration: none;
-  color: #fff;
+  color: var(--color-title);
 }
 
 .scrolled {
@@ -57,7 +57,6 @@ nav {
   color: #000;
 }
 
-
 /* 
   FOOTER
 */
@@ -69,13 +68,13 @@ footer {
   right: 0;
   height: 100px;
   padding: 20px 40px;
-  border-top: 2px solid rgba(179, 179, 179, 0.7);
+  border-top: var(--border-default);
 }
 
 .footer__content {
   display: flex;
   justify-content: space-between;
-  color: #000;
+  color: var(--color-text);
   font-family: var(--font-principal);
   font-size: 16px;
 }
@@ -103,7 +102,7 @@ footer {
 
 .footer__content .footer__content__center ul li a {
   text-decoration: none;
-  color: #000;
+  color: var(--color-text);
 }
 
 .footer__content .footer__content__right {

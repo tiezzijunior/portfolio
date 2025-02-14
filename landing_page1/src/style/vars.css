@@ -1,5 +1,11 @@
 :root {
+  /* FONTS */
+  --font-principal: "DM Sans", sans-serif;
 
-    /* FONTS */
-    --font-principal: "DM Sans", sans-serif;
+  /* COLORS */
+  --color-title: #fff;
+  --color-text: #000;
+
+  /* BORDER */
+  --border-default: 2px solid rgba(179, 179, 179, 0.7)
 }
