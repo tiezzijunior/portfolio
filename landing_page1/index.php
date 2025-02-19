@@ -62,12 +62,12 @@
                 <!-- SECTION 2 -->
                 <section class="body__content-about">
                     <div class="title">
-                        <span>/</span>
+                        <span class="title-bar">/</span>
                         <span>About us</span>
                     </div>
                     <div class="subtitle">
                         <div>
-                            <span></span>
+                            <span class="subtitle-line"></span>
                             <span><i class="fa-solid fa-arrow-right"></i></span>
                         </div>
                         <div>

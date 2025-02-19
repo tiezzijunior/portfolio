@@ -105,3 +105,20 @@ body {
   font-size: 0.9rem;
   color: #505050;
 }
+
+.body__content .body__content-about .title {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0 0 0;
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+.body__content .body__content-about .title .title-bar {
+  color: var(--color-lines);
+}
+
+.body__content .body__content-about .subtitle {
+  display: flex;
+  justify-content: center;
+}
