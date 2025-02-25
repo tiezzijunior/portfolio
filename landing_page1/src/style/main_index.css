@@ -1,6 +1,7 @@
 body {
   font-family: var(--font-principal);
   padding: 0 0 0;
+  line-height: 1.5;
 }
 
 .main-content__header {
@@ -83,7 +84,7 @@ body {
 }
 
 .body__content .body__content-valores .valor__card3 {
-  padding: 0 10px 0 0;
+  padding: 0 40px 0 0;
 }
 
 .body__content .body__content-valores .valor__card1 .title,
@@ -106,19 +107,71 @@ body {
   color: #505050;
 }
 
+.body__content .body__content-about {
+  width: 100%;
+  height: auto;
+}
+
 .body__content .body__content-about .title {
   display: flex;
   justify-content: center;
-  padding: 10px 0 0 0;
-  font-size: 3rem;
+  margin: 50px 0 30px 0;
+  font-size: 4rem;
   font-weight: 500;
 }
 
 .body__content .body__content-about .title .title-bar {
-  color: var(--color-lines);
+  color: var(--color-secund);
 }
 
 .body__content .body__content-about .subtitle {
   display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 10px 0 0 0;
+}
+
+.body__content-about .subtitle .subtitle-line-arrow {
+  display: flex;
+  width: 40%;
+}
+
+.body__content-about .subtitle .subtitle-line {
+  width: 80%;
+  padding: 0 0 0 40px;
+}
+
+.body__content-about .subtitle .subtitle-line hr {
+  background-color: var(--color-secund);
+  height: 1px;
+  border: none;
+}
+
+.body__content-about .subtitle .subtitle-text {
+  width: 60%;
+  padding: 0 40px 0 0;
+  font-size: 1.5rem;
+  color: var(--color-subtext);
+}
+
+.body__content-about .subtitle .subtitle-arrow {
+  border: 1px solid var(--color-secund);
+  border-radius: 100%;
+  padding: 10px;
+}
+
+.body__content .body__content-about .img {
+  display: flex;
   justify-content: center;
+  padding: 50px 40px 30px 40px;
+}
+
+.body__content .body__content-about .img img {
+  width: 100%;
+  height: auto;
+}
+
+.body__content .body__content-about .text {
+  padding: 0 40px 50px 40px;
+  color: var(--color-subtext);
 }

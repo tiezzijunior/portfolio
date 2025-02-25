@@ -62,20 +62,31 @@
                 <!-- SECTION 2 -->
                 <section class="body__content-about">
                     <div class="title">
-                        <span class="title-bar">/</span>
-                        <span>About us</span>
+                        <h1 class="title-bar">/</h1>
+                        <h1>About us</h1>
                     </div>
                     <div class="subtitle">
-                        <div>
-                            <span class="subtitle-line"></span>
-                            <span><i class="fa-solid fa-arrow-right"></i></span>
+                        <div class="subtitle-line-arrow">
+                            <div class="subtitle-line">
+                                <hr>
+                            </div>
+                            <div>
+                                <span class="subtitle-arrow"><i class="fa-solid fa-arrow-right"></i></span>
+                            </div>
                         </div>
-                        <div>
-                            <span>At Griyo Real Estate, we provide tailored property solutions, expert guidance, and exceptional service to ensure seamless transactions and satisfaction in every real estate deal.</span>
+                        <div class="subtitle-text">
+                            <p>At Griyo Real Estate, we provide tailored property solutions, expert guidance, and exceptional service to ensure seamless transactions and satisfaction in every real estate deal.</p>
                         </div>
                     </div>
-                    <div class="img"></div>
-                    <div class="text"></div>
+                    <div class="img">
+                        <img src="./src/assets/imagens/casa_about.jpg" alt="Casa de Campo">
+                    </div>
+                    <div class="text">
+                        <p>
+                            Find comprehensive answars to all your Naturely travel questions right here.<br>
+                            Whether Find comprehensive answars to all
+                        </p>
+                    </div>
                 </section>
             </div>
         </div>

@@ -5,8 +5,9 @@
   /* COLORS */
   --color-title: #fff;
   --color-text: #000;
-  --color-lines: rgba(179, 179, 179, 0.7);
+  --color-secund: rgba(179, 179, 179, 0.7);
+  --color-subtext: #6b6a6a;
 
   /* BORDER */
-  --border-default: 2px solid var(--color-lines);
+  --border-default: 2px solid var(--color-secund);
 }
